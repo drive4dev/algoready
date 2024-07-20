@@ -6,6 +6,7 @@ package contains_duplicate
 // return true if there are two distinct indices i and j
 // in the array such that nums[i] == nums[j] and abs(i - j) <= k.
 
+// sliding window solution
 func containsNearbyDuplicate2(nums []int, k int) bool {
 	window := make(map[int]struct{})
 
